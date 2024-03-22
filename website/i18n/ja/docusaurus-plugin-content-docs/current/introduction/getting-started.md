@@ -3,20 +3,20 @@ sidebar_position: 1
 slug: /introduction/getting-started/
 ---
 
-# Getting Started
+# はじめに
 
-Get started with fast-check in an existing project.
+既存のプロジェクトでfast-checkを始める。
 
 ## Install the package
 
-fast-check can be installed into any existing project by running the following command:
+fast-checkは次のコマンドを実行することで既存のプロジェクトにインストールできます:
 
 ```bash npm2yarn
 npm install --save-dev fast-check
 ```
 
-:::tip No install
-You can also directly pull it from a CDN:
+:::tip インストールなし
+CDNから直接利用することも可能です:
 
 ```ts
 // deno
@@ -33,8 +33,8 @@ import fc from 'https://cdn.skypack.dev/fast-check';
 
 :::
 
-:::info Integration with test runners
-fast-check is agnostic of the test runner you rely on. It works with any test runner without needing any specific change.
+:::info テストランナーとの統合
+fast-checkは利用しているテストランナーに依存しません。特別な変更なしにどのテストランナーでも動きます。
 :::
 
 ## Simple property
